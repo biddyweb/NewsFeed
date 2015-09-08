@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		5323AD9B1B9EAE2300FB627E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323AD9A1B9EAE2300FB627E /* main.m */; };
 		5323AD9E1B9EAE2300FB627E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323AD9D1B9EAE2300FB627E /* AppDelegate.m */; };
-		5323ADA11B9EAE2300FB627E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323ADA01B9EAE2300FB627E /* ViewController.m */; };
 		5323ADA41B9EAE2400FB627E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5323ADA21B9EAE2400FB627E /* Main.storyboard */; };
 		5323ADA61B9EAE2400FB627E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5323ADA51B9EAE2400FB627E /* Images.xcassets */; };
 		5323ADA91B9EAE2400FB627E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5323ADA71B9EAE2400FB627E /* LaunchScreen.xib */; };
 		5323ADB51B9EAE2400FB627E /* NewsFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323ADB41B9EAE2400FB627E /* NewsFeedTests.m */; };
+		5323ADC01B9EB0C000FB627E /* NFAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323ADBF1B9EB0C000FB627E /* NFAPI.m */; };
+		5323ADC41B9EB5C300FB627E /* NFNewsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323ADC31B9EB5C300FB627E /* NFNewsFeed.m */; };
+		5323ADC71B9EB72C00FB627E /* NFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5323ADC61B9EB72C00FB627E /* NFTableViewController.m */; };
+		532495601B9EC00B003B16B8 /* NFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5324955E1B9EC00B003B16B8 /* NFTableViewCell.m */; };
+		532495611B9EC00B003B16B8 /* NFTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5324955F1B9EC00B003B16B8 /* NFTableViewCell.xib */; };
+		532495661B9EC320003B16B8 /* NFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532495651B9EC320003B16B8 /* NFDetailViewController.m */; };
+		532495681B9EC4AD003B16B8 /* NFDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532495671B9EC4AD003B16B8 /* NFDetailViewController.xib */; };
+		F8998CA1D29C4A98A08B96D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D1555ED3A21B7D1C65B78C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B7E89E3EADD12FCBE10919 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5323AD951B9EAE2300FB627E /* NewsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5323AD991B9EAE2300FB627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323AD9A1B9EAE2300FB627E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5323AD9C1B9EAE2300FB627E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5323AD9D1B9EAE2300FB627E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5323AD9F1B9EAE2300FB627E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5323ADA01B9EAE2300FB627E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5323ADA31B9EAE2400FB627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5323ADA51B9EAE2400FB627E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5323ADA81B9EAE2400FB627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5323ADAE1B9EAE2400FB627E /* NewsFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5323ADB31B9EAE2400FB627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5323ADB41B9EAE2400FB627E /* NewsFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTests.m; sourceTree = "<group>"; };
+		5323ADBE1B9EB0C000FB627E /* NFAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFAPI.h; sourceTree = "<group>"; };
+		5323ADBF1B9EB0C000FB627E /* NFAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFAPI.m; sourceTree = "<group>"; };
+		5323ADC21B9EB5C300FB627E /* NFNewsFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNewsFeed.h; sourceTree = "<group>"; };
+		5323ADC31B9EB5C300FB627E /* NFNewsFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNewsFeed.m; sourceTree = "<group>"; };
+		5323ADC51B9EB72C00FB627E /* NFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFTableViewController.h; sourceTree = "<group>"; };
+		5323ADC61B9EB72C00FB627E /* NFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFTableViewController.m; sourceTree = "<group>"; };
+		5324955D1B9EC00B003B16B8 /* NFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFTableViewCell.h; sourceTree = "<group>"; };
+		5324955E1B9EC00B003B16B8 /* NFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFTableViewCell.m; sourceTree = "<group>"; };
+		5324955F1B9EC00B003B16B8 /* NFTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFTableViewCell.xib; sourceTree = "<group>"; };
+		532495641B9EC320003B16B8 /* NFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFDetailViewController.h; sourceTree = "<group>"; };
+		532495651B9EC320003B16B8 /* NFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFDetailViewController.m; sourceTree = "<group>"; };
+		532495671B9EC4AD003B16B8 /* NFDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFDetailViewController.xib; sourceTree = "<group>"; };
+		B8D1555ED3A21B7D1C65B78C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE23D3AE3C3C0E2CA07C769C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8998CA1D29C4A98A08B96D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5141F815A121E7B751FE57FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B7E89E3EADD12FCBE10919 /* Pods.debug.xcconfig */,
+				DE23D3AE3C3C0E2CA07C769C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5323AD8C1B9EAE2300FB627E = {
 			isa = PBXGroup;
 			children = (
 				5323AD971B9EAE2300FB627E /* NewsFeed */,
 				5323ADB11B9EAE2400FB627E /* NewsFeedTests */,
 				5323AD961B9EAE2300FB627E /* Products */,
+				5141F815A121E7B751FE57FC /* Pods */,
+				E2051707C22E40C7EE7FC9F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +113,12 @@
 		5323AD971B9EAE2300FB627E /* NewsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				532495631B9EC305003B16B8 /* API */,
+				532495621B9EC2F5003B16B8 /* ViewController */,
+				5324955C1B9EBFF2003B16B8 /* View */,
+				5323ADC11B9EB57E00FB627E /* Model */,
 				5323AD9C1B9EAE2300FB627E /* AppDelegate.h */,
 				5323AD9D1B9EAE2300FB627E /* AppDelegate.m */,
-				5323AD9F1B9EAE2300FB627E /* ViewController.h */,
-				5323ADA01B9EAE2300FB627E /* ViewController.m */,
 				5323ADA21B9EAE2400FB627E /* Main.storyboard */,
 				5323ADA51B9EAE2400FB627E /* Images.xcassets */,
 				5323ADA71B9EAE2400FB627E /* LaunchScreen.xib */,
@@ -119,6 +153,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5323ADC11B9EB57E00FB627E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5323ADC21B9EB5C300FB627E /* NFNewsFeed.h */,
+				5323ADC31B9EB5C300FB627E /* NFNewsFeed.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5324955C1B9EBFF2003B16B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5324955D1B9EC00B003B16B8 /* NFTableViewCell.h */,
+				5324955E1B9EC00B003B16B8 /* NFTableViewCell.m */,
+				5324955F1B9EC00B003B16B8 /* NFTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		532495621B9EC2F5003B16B8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5323ADC51B9EB72C00FB627E /* NFTableViewController.h */,
+				5323ADC61B9EB72C00FB627E /* NFTableViewController.m */,
+				532495641B9EC320003B16B8 /* NFDetailViewController.h */,
+				532495651B9EC320003B16B8 /* NFDetailViewController.m */,
+				532495671B9EC4AD003B16B8 /* NFDetailViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		532495631B9EC305003B16B8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5323ADBE1B9EB0C000FB627E /* NFAPI.h */,
+				5323ADBF1B9EB0C000FB627E /* NFAPI.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		E2051707C22E40C7EE7FC9F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D1555ED3A21B7D1C65B78C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5323ADB81B9EAE2400FB627E /* Build configuration list for PBXNativeTarget "NewsFeed" */;
 			buildPhases = (
+				D4AEE12B6D844D937445AE54 /* Check Pods Manifest.lock */,
 				5323AD911B9EAE2300FB627E /* Sources */,
 				5323AD921B9EAE2300FB627E /* Frameworks */,
 				5323AD931B9EAE2300FB627E /* Resources */,
+				C8EF914EAED431246D9C6299 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +286,8 @@
 				5323ADA41B9EAE2400FB627E /* Main.storyboard in Resources */,
 				5323ADA91B9EAE2400FB627E /* LaunchScreen.xib in Resources */,
 				5323ADA61B9EAE2400FB627E /* Images.xcassets in Resources */,
+				532495611B9EC00B003B16B8 /* NFTableViewCell.xib in Resources */,
+				532495681B9EC4AD003B16B8 /* NFDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +300,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8EF914EAED431246D9C6299 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4AEE12B6D844D937445AE54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5323AD911B9EAE2300FB627E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5323ADA11B9EAE2300FB627E /* ViewController.m in Sources */,
+				5323ADC41B9EB5C300FB627E /* NFNewsFeed.m in Sources */,
+				532495601B9EC00B003B16B8 /* NFTableViewCell.m in Sources */,
+				5323ADC01B9EB0C000FB627E /* NFAPI.m in Sources */,
+				5323ADC71B9EB72C00FB627E /* NFTableViewController.m in Sources */,
 				5323AD9E1B9EAE2300FB627E /* AppDelegate.m in Sources */,
 				5323AD9B1B9EAE2300FB627E /* main.m in Sources */,
+				532495661B9EC320003B16B8 /* NFDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +470,7 @@
 		};
 		5323ADB91B9EAE2400FB627E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B7E89E3EADD12FCBE10919 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsFeed/Info.plist;
@@ -357,6 +481,7 @@
 		};
 		5323ADBA1B9EAE2400FB627E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE23D3AE3C3C0E2CA07C769C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsFeed/Info.plist;
@@ -418,6 +543,7 @@
 				5323ADBA1B9EAE2400FB627E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5323ADBB1B9EAE2400FB627E /* Build configuration list for PBXNativeTarget "NewsFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +552,7 @@
 				5323ADBD1B9EAE2400FB627E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

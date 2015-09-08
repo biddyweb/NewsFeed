@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NFTableViewController.h
 //  NewsFeed
 //
 //  Created by joehsieh on 2015/9/8.
@@ -7,9 +7,5 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+@interface NFTableViewController : UITableViewController
 @end
-
